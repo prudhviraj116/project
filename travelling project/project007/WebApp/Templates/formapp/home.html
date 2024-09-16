@@ -1,0 +1,16 @@
+{% extends 'formapp/select.html' %}
+ 
+{% block main %}
+    <div class="actions">
+        <a href="{% url 'selecturl' 1 %}">select</a>
+    </div>
+    <div class="actions">
+        <a href="{% url 'inserturl' %}">Insert</a>
+    </div>
+    <div class="actions">
+        <a href="">Update</a>
+    </div>
+    <div class="actions">
+        <a href="">Delete</a>
+    </div>
+{% endblock %}
